@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dylan Suveges - Full Stack Developer Vancouver BC Canada</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="The personal website of Dylan Suveges, a full stack developer based out of Vancouver, British Columbia.">
+		<meta name="keywords" content="full stack,developer,experienced,web developer,vancouver,dylan,suveges,dylan suveges">
+		<meta name="author" content="Dylan Suveges">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">								
+		<style>
+			body{
+				font-family: 'Century Gothic',sans-serif;
+				margin: 0;
+				padding: 0;
+				background: url(bg-lg.jpg) no-repeat center center fixed;
+				background-size: cover;
+				color: #333333;
+			}
+			.card{
+				background-color: white;
+				max-width: 450px;				
+				padding: 40px;
+				text-align: center;
+				margin: auto;
+				margin-top: 5%;
+				color: #4;				
+				box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.20);				
+			}
+			.card__top-image{
+				border-radius: 50%;
+				width: 150px;
+				height: 150px;
+				border: 2px solid #eeeeee;	
+				box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.20);
+			}
+			.card__name{
+				font-size: 2.5rem;
+				letter-spacing: 4px;
+				font-weight: 100;
+			}
+			.card__profession{
+				font-size: 1.5rem;
+				letter-spacing: 3px;
+				font-weight: 100;
+			}
+			.card__location{
+				font-size: 1.25rem;
+				letter-spacing: 3px;
+				font-weight: 100;
+			}			
+			.card__text-content{
+				text-align: justify;
+				margin: 2rem 0;
+				color: #767676;
+				line-height: 1.5rem;
+			}
+			.card__text-content-a{			
+				color: #767676;
+				transition: all ease-in-out 250ms;
+			}
+			.card__text-content-a:hover{
+				color: #333333;
+			}			
+			.card__top-icon{
+				margin-right: 1rem;
+			}
+			.icon-link-list{
+				margin: 0;
+				padding: 0;
+			}
+			.icon-link-list__li{
+				display: inline-block;
+				margin: 0 10px;
+				list-style: none;
+			}
+			.icon-link-list__a{
+				color: #333333;
+				text-decoration: none;
+				font-size: 3rem;
+				transition: all ease-in-out 250ms;
+			}
+			.icon-link-list__a:hover{
+				color: #767676;
+			}		
+			@media screen and (max-width: 1440px) {
+				body {
+					background: url(bg-md.jpg) no-repeat center center fixed;	
+				}
+			}	
+			@media screen and (max-width: 1024px) {			
+				body {
+					background: url(bg-sm.jpg) no-repeat center center fixed;	
+				}
+			}				
+			@media screen and (max-width: 700px) {
+				body {
+					background: none;
+				}
+				.card{
+					box-shadow: none;
+				}
+			}			
+			@media screen and (max-width: 500px) {
+				.card__top-image{
+					width: 125px;
+					height: 125px;					
+				}
+				.card__name{
+					font-size: 2rem;
+				}
+				.card__profession{
+					font-size: 1.4rem;
+				}
+				.card__location{
+					font-size: 1.2rem;
+				}					
+			}
+		</style>
+		<link defer="defer" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="card">
+			<img class="card__top-image" src="me-sm.jpg" alt="Portrait of Dylan Suveges">
+			<h1 class="card__name">Dylan Suveges</h1>
+			<h2 class="card__profession"><i class="fa fa-info card__top-icon" aria-hidden="true"></i> Full Stack Developer</h2>
+			<h3 class="card__location"><i class="fa fa-map-pin card__top-icon" aria-hidden="true"></i> Vancouver, Canada</h3>
+			<p class="card__text-content">
+				I have around 4.5 years of experience working on software as a service (SaaS) and e-commerce projects.
+				I've created and maintained systems that process millions of dollars in orders each year.
+				There's nothing greater than being a part of a good project with an awesome team and getting things done.
+			</p>
+			<p class="card__text-content">
+				Currently I'm employed at <a class="card__text-content-a" href="http://www.auphansoftware.com/">Auphan Software</a>, but feel free to contact me if you'd like to talk shop or have any inquiries.
+			</p>
+			<ul class="icon-link-list">
+				<li class="icon-link-list__li">
+					<a class="icon-link-list__a" href="https://www.facebook.com/Kalnyx"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				</li>
+				<li class="icon-link-list__li">
+					<a class="icon-link-list__a" href="https://www.linkedin.com/in/dsuveges/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				</li>
+				<li class="icon-link-list__li">
+					<a class="icon-link-list__a" href="https://github.com/dsuv"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
+
