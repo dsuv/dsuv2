@@ -10,12 +10,17 @@
 		<meta name="robots" content="index, follow">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">								
 		<style>
+			html {
+				background: url(bg-lg.jpg) no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;			
+			}
 			body{
 				font-family: 'Century Gothic',sans-serif;
 				margin: 0;
-				padding: 0;
-				background: url(bg-lg.jpg) no-repeat center center fixed;
-				background-size: cover;
+				padding: 0;				
 				color: #333333;
 			}
 			.card{
@@ -23,9 +28,7 @@
 				max-width: 450px;				
 				padding: 40px;
 				text-align: center;
-				margin: auto;
-				margin-top: 5%;
-				color: #4;				
+				margin: 5% auto;
 				box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.20);				
 			}
 			.card__top-image{
@@ -83,19 +86,27 @@
 			}
 			.icon-link-list__a:hover{
 				color: #767676;
-			}		
+			}
 			@media screen and (max-width: 1440px) {
-				body {
-					background: url(bg-md.jpg) no-repeat center center fixed;	
+				html {
+					background: url(bg-md.jpg) no-repeat center center fixed;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;			
 				}
 			}	
 			@media screen and (max-width: 1024px) {			
-				body {
-					background: url(bg-sm.jpg) no-repeat center center fixed;	
+				html {
+					background: url(bg-sm.jpg) no-repeat center center fixed;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;			
 				}
 			}				
 			@media screen and (max-width: 700px) {
-				body {
+				html {
 					background: none;
 				}
 				.card{
